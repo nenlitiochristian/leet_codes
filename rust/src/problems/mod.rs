@@ -1,5 +1,6 @@
 pub mod problem_1061;
 pub mod problem_2698;
+pub mod problem_3170;
 pub mod problem_3403;
 
 pub struct TestCases<A, B> {
