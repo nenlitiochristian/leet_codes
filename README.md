@@ -8,6 +8,7 @@
 
 ### Cpp
 1. [Longest Consecutive Sequence (Problem 128)](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+2. [Top K Frequent Elements (Problem 347)](https://leetcode.com/problems/top-k-frequent-elements/description/)
 
 ### Python
 1. [Two Sum (Problem 1)](https://leetcode.com/problems/two-sum/description/)
