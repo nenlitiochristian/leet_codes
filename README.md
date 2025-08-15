@@ -12,5 +12,8 @@
 
 ### Python
 1. [Two Sum (Problem 1)](https://leetcode.com/problems/two-sum)
-2. [3Sum (Problem 15)](https://leetcode.com/problems/3sum)
-3. [Container With Most Water (Problem 11)](https://leetcode.com/problems/container-with-most-water)
+2. [Container With Most Water (Problem 11)](https://leetcode.com/problems/container-with-most-water)
+3. [3Sum (Problem 15)](https://leetcode.com/problems/3sum)
+
+### Typescript
+1. [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
