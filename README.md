@@ -16,5 +16,6 @@
 3. [3Sum (Problem 15)](https://leetcode.com/problems/3sum)
 
 ### Typescript
-1. [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
-1. [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
+1. [Longest Substring Without Repeating Characters (Problem 3)](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+2. [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
+3. [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
