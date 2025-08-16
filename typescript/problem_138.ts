@@ -14,37 +14,19 @@ class _Node {
 function copyRandomList(head: _Node | null): _Node | null {
     if (!head) return head;
 
-    const oldNodeToIndex = new Map<_Node, number>();
-    const newIndexToNode = new Map<number, _Node>();
-
-    const newHead: _Node | null = new _Node(head.val);
-
-    let newCurr: _Node | null = newHead;
+    const oldToNew = new Map<_Node, _Node>();
     let curr: _Node | null = head;
-    let idx = 0;
-    while (curr && newCurr) {
-        if (curr.next) {
-            newCurr.next = new _Node(curr.next.val);
-        }
-
-        oldNodeToIndex.set(curr, idx);
-        newIndexToNode.set(idx, newCurr);
-
-        newCurr = newCurr.next;
+    while (curr) {
+        oldToNew.set(curr, new _Node(curr.val));
         curr = curr.next;
-        idx++;
     }
 
     curr = head;
-    idx = 0;
     while (curr) {
-        if (curr.random) {
-            const index = oldNodeToIndex.get(curr.random)!;
-            newIndexToNode.get(idx)!.random = newIndexToNode.get(index)!;
-        }
-        idx++;
+        oldToNew.get(curr)!.next = curr.next ? oldToNew.get(curr.next) ?? null : null;
+        oldToNew.get(curr)!.random = curr.random ? oldToNew.get(curr.random) ?? null : null;
         curr = curr.next;
     }
 
-    return newHead;
+    return oldToNew.get(head) ?? null;
 };
