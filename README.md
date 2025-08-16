@@ -6,17 +6,20 @@
 3. [Lexicographically Minimum String After Removing Stars (Problem 3170)](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars)
 4. [Find the Lexicographically Largest String From the Box I (Problem 3403)](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i)
 
-### Cpp
-1. [Longest Consecutive Sequence (Problem 128)](https://leetcode.com/problems/longest-consecutive-sequence)
-2. [Top K Frequent Elements (Problem 347)](https://leetcode.com/problems/top-k-frequent-elements)
+### Typescript
+1. [Longest Substring Without Repeating Characters (Problem 3)](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+2. [Merge Two Sorted Lists (Problem 21)](https://leetcode.com/problems/merge-two-sorted-lists)
+3. [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
+4. [Reverse Linked List (Problem 206)](https://leetcode.com/problems/reverse-linked-list)
+5. [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
 
 ### Python
 1. [Two Sum (Problem 1)](https://leetcode.com/problems/two-sum)
 2. [Container With Most Water (Problem 11)](https://leetcode.com/problems/container-with-most-water)
 3. [3Sum (Problem 15)](https://leetcode.com/problems/3sum)
 
-### Typescript
-1. [Longest Substring Without Repeating Characters (Problem 3)](https://leetcode.com/problems/longest-substring-without-repeating-characters)
-2. [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
-3. [Reverse Linked List (Problem 206)](https://leetcode.com/problems/reverse-linked-list)
-4. [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
+### Cpp
+1. [Longest Consecutive Sequence (Problem 128)](https://leetcode.com/problems/longest-consecutive-sequence)
+2. [Top K Frequent Elements (Problem 347)](https://leetcode.com/problems/top-k-frequent-elements)
+
+
