@@ -17,3 +17,4 @@
 
 ### Typescript
 1. [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
+1. [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
