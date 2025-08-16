@@ -18,4 +18,5 @@
 ### Typescript
 1. [Longest Substring Without Repeating Characters (Problem 3)](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 2. [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
-3. [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
+3. [Reverse Linked List (Problem 206)](https://leetcode.com/problems/reverse-linked-list)
+4. [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
