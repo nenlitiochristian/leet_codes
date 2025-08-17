@@ -12,7 +12,8 @@
 - [Generate Parentheses (Problem 22)](https://leetcode.com/problems/generate-parentheses)
 - [Copy List with Random Pointer (Problem 138)](https://leetcode.com/problems/copy-list-with-random-pointer)
 - [Reverse Linked List (Problem 206)](https://leetcode.com/problems/reverse-linked-list)
-- [Invert Binary Tree (Problem 226)](https://leetcode.com/problems/reverse-linked-list)
+- [Invert Binary Tree (Problem 226)](https://leetcode.com/problems/invert-binary-tree)
+- [Lowest Common Ancestor of a Binary Search Tree (Problem 235)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)
 - [Koko Eating Bananas (Problem 875)](https://leetcode.com/problems/koko-eating-bananas)
 
 ### Python
