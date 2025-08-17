@@ -13,18 +13,15 @@ class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         if subRoot is None:
             return True
-        if root is None and subRoot is not None:
-            return False
-        if root is None and subRoot is None:
+        if root is None:
+            if subRoot is not None:
+                return False
             return True
 
-        # find first
-        search = self.find_subroot(root, subRoot.val)
-
-        if search is None:
-            return False
-
-        return self.check_same(search, subRoot)
+        if self.check_same(root, subRoot):
+            return True
+        
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
 
     def check_same(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]):
         if subRoot is None or root is None:
@@ -39,12 +36,3 @@ class Solution:
         return self.check_same(root.left, subRoot.left) and self.check_same(
             root.right, subRoot.right
         )
-
-    def find_subroot(self, root: Optional[TreeNode], target: int):
-        if root is None or root.val == target:
-            return root
-
-        left = self.find_subroot(root.left, target)
-        if left is not None:
-            return left
-        return self.find_subroot(root.right, target)
